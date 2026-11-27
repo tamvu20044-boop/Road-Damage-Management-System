@@ -61,7 +61,7 @@ Road-Damage-Management-System/
 ├── models/                      # Checkpoint YOLO26n.pt và YOLO26s.pt
 ├── result/                      # Chỉ số, biểu đồ và ảnh minh họa
 └── app/                         # Ứng dụng phát hiện và quản lý
-
+```
 ## 4. Nghiên cứu và lựa chọn mô hình
 
 1. Chuẩn hóa `data.yaml` và ba lớp nhãn; tách Train, Validation và Test.
