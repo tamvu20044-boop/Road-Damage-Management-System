@@ -1,0 +1,10 @@
+# Phiên bản Ultralytics đúng với notebook Test được lưu.
+# Các phiên bản còn lại tùy thuộc môi trường thực nghiệm.
+ultralytics==8.4.213
+pandas
+numpy
+PyYAML
+Pillow
+matplotlib
+seaborn
+torch

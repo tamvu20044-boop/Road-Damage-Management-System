@@ -1,0 +1,32 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Model weights and generated archives (use controlled releases if needed)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.zip
+!models/YOLO26n.pt
+!models/YOLO26s.pt
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Kaggle/Ultralytics generated data
+runs/
+wandb/

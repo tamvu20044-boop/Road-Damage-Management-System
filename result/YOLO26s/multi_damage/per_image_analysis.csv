@@ -1,0 +1,2197 @@
+image_id,gt_type_count,pred_type_count,gt_combination,pred_combination,exact_class_set,all_true_types_localized,all_gt_boxes_detected,tp_boxes_iou50,fn_boxes_iou50,fp_boxes_iou50,image_class_set_recall
+China_Drone_000008.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000017.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000040.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000052.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000053.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_000075.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_000085.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000092.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_Drone_000096.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+China_Drone_000098.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000099.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000109.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,3,1.0
+China_Drone_000116.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_000119.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000127.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000128.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000150.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000176.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000182.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000186.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000216.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000217.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_000222.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000262.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000264.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000266.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000268.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000272.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+China_Drone_000277.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_Drone_000286.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+China_Drone_000290.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,0,0.5
+China_Drone_000297.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000311.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000314.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,4,3,0.0
+China_Drone_000323.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000330.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000334.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_Drone_000343.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_000344.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000346.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_000348.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+China_Drone_000351.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_000359.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000361.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000380.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000383.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+China_Drone_000401.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000408.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_Drone_000416.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000431.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000438.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000451.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_Drone_000457.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+China_Drone_000459.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+China_Drone_000460.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000474.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,4,1,1,1.0
+China_Drone_000475.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000479.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,3,0.0
+China_Drone_000480.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_Drone_000487.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+China_Drone_000491.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000499.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_000505.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000509.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,2,1.0
+China_Drone_000513.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000516.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000517.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000550.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000566.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,4,0.0
+China_Drone_000596.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000607.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+China_Drone_000609.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000616.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+China_Drone_000621.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,0,0.5
+China_Drone_000622.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000623.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_000625.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000626.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,1,0,0.5
+China_Drone_000628.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000631.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+China_Drone_000640.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_000644.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000647.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000651.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000655.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,0,1.0
+China_Drone_000673.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000677.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_000681.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,3,1,1,0.5
+China_Drone_000682.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+China_Drone_000686.jpg,1,1,linear_crack,linear_crack,1,1,1,5,0,1,1.0
+China_Drone_000705.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000715.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000736.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000738.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+China_Drone_000742.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000747.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000756.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000758.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_000772.jpg,1,1,linear_crack,linear_crack,1,1,0,4,1,0,1.0
+China_Drone_000791.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000795.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000810.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000827.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_000833.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000843.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000850.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+China_Drone_000852.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+China_Drone_000853.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000878.jpg,1,1,alligator_crack,pothole,0,0,0,0,1,1,0.0
+China_Drone_000892.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000904.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_Drone_000911.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,1,1,1.0
+China_Drone_000918.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000928.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_000952.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+China_Drone_000963.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_000979.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000980.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_000985.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+China_Drone_000993.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001009.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001029.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001033.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001034.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+China_Drone_001039.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001078.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+China_Drone_001090.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001092.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001108.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,2,1,0.0
+China_Drone_001117.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001118.jpg,1,2,linear_crack,pothole + linear_crack,0,1,1,1,0,1,1.0
+China_Drone_001123.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_001133.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_001138.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001143.jpg,1,1,linear_crack,linear_crack,1,1,0,6,1,0,1.0
+China_Drone_001148.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_Drone_001149.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,3,2,1.0
+China_Drone_001163.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001183.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001188.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_001190.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_001215.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001219.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_001229.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_001231.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001232.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,1,0.5
+China_Drone_001246.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,2,1.0
+China_Drone_001247.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001253.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+China_Drone_001270.jpg,1,2,linear_crack,pothole + linear_crack,0,1,1,1,0,1,1.0
+China_Drone_001271.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001275.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_Drone_001278.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001291.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001296.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001298.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001302.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001303.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001321.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001330.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_001332.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001339.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+China_Drone_001348.jpg,1,2,linear_crack,pothole + linear_crack,0,1,1,1,0,1,1.0
+China_Drone_001356.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+China_Drone_001366.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001370.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_001377.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001385.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001398.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+China_Drone_001399.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+China_Drone_001406.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001412.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001416.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001418.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001427.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001434.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+China_Drone_001441.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001448.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001450.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,0,0.5
+China_Drone_001453.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_001455.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001456.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_001483.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001487.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001491.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_Drone_001496.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_Drone_001512.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001516.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001520.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+China_Drone_001530.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+China_Drone_001534.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+China_Drone_001555.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_Drone_001557.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_001568.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_001569.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001588.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001590.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_001598.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001599.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001603.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_Drone_001616.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+China_Drone_001625.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001631.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+China_Drone_001647.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001661.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001662.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001668.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_001681.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001682.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001684.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001687.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,3,2,0.0
+China_Drone_001690.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001697.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001698.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001712.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+China_Drone_001715.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_Drone_001717.jpg,1,0,linear_crack,none,0,0,0,0,3,0,0.0
+China_Drone_001719.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_001723.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_001731.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001758.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,3,1.0
+China_Drone_001761.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,2,1,1,1.0
+China_Drone_001788.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001801.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_001817.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001819.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001829.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001837.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,2,1,1.0
+China_Drone_001838.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001846.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_Drone_001856.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_001859.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+China_Drone_001863.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_001871.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001874.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001884.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001888.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,2,1.0
+China_Drone_001889.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+China_Drone_001895.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001912.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_001918.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001921.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_Drone_001923.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_001930.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001931.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001956.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001966.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001972.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,1,0,0.5
+China_Drone_001981.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001991.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_001993.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_001994.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002004.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+China_Drone_002006.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002008.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,3,0.0
+China_Drone_002009.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002034.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_002041.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_Drone_002043.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002052.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002061.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002071.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_Drone_002095.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+China_Drone_002109.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,1,1.0
+China_Drone_002115.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,2,1.0
+China_Drone_002116.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002117.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_002127.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002133.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_002136.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_002140.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_Drone_002153.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+China_Drone_002165.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,1,1.0
+China_Drone_002174.jpg,1,1,linear_crack,linear_crack,1,1,0,1,3,1,1.0
+China_Drone_002182.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002189.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+China_Drone_002195.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_002213.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_002222.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_002229.jpg,1,1,linear_crack,linear_crack,1,1,1,5,0,0,1.0
+China_Drone_002236.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+China_Drone_002247.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_Drone_002265.jpg,1,1,linear_crack,linear_crack,1,1,0,4,1,1,1.0
+China_Drone_002269.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002276.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002286.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_002290.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_002304.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002306.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_Drone_002310.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+China_Drone_002312.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_Drone_002320.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_Drone_002342.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+China_Drone_002346.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+China_Drone_002372.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_Drone_002375.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_Drone_002385.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002390.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_Drone_002398.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000003.jpg,1,1,linear_crack,linear_crack,1,1,0,2,3,3,1.0
+China_MotorBike_000010.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+China_MotorBike_000024.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000034.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000036.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_MotorBike_000048.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,2,1.0
+China_MotorBike_000056.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000075.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+China_MotorBike_000088.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+China_MotorBike_000092.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+China_MotorBike_000093.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000096.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000098.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,2,1.0
+China_MotorBike_000104.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_MotorBike_000106.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_000139.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000146.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000160.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_MotorBike_000177.jpg,1,1,linear_crack,linear_crack,1,1,1,8,0,0,1.0
+China_MotorBike_000184.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000191.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000200.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000201.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000207.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000215.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000216.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000218.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000221.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000223.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000225.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,0,1.0
+China_MotorBike_000232.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,2,1.0
+China_MotorBike_000234.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,3,0,1,1.0
+China_MotorBike_000240.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000244.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000248.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000275.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000282.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,1,1.0
+China_MotorBike_000291.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000296.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,0,9,1,7,1.0
+China_MotorBike_000309.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000317.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000323.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,2,1.0
+China_MotorBike_000324.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000325.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000332.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+China_MotorBike_000342.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000345.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000356.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+China_MotorBike_000363.jpg,1,2,pothole,pothole + linear_crack,0,1,1,1,0,1,1.0
+China_MotorBike_000371.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000388.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000390.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000397.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,0,1.0
+China_MotorBike_000398.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000404.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000427.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000429.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000433.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000450.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000454.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_MotorBike_000457.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_000462.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000464.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000466.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,2,1.0
+China_MotorBike_000472.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000477.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000478.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000484.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000502.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+China_MotorBike_000503.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000506.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+China_MotorBike_000516.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_MotorBike_000517.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000523.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,1,1.0
+China_MotorBike_000528.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000530.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000541.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000546.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000548.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000551.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000553.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_000558.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,2,1.0
+China_MotorBike_000559.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000573.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000574.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000601.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000612.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+China_MotorBike_000617.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_MotorBike_000622.jpg,1,1,linear_crack,linear_crack,1,1,1,5,0,0,1.0
+China_MotorBike_000624.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_MotorBike_000627.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,1,1.0
+China_MotorBike_000630.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000634.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000635.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000637.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000646.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000648.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_000649.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000655.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000662.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+China_MotorBike_000666.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_000667.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000668.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000673.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_000676.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+China_MotorBike_000699.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000702.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000703.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000719.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000721.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000725.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,1,1.0
+China_MotorBike_000749.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000754.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000759.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000764.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,3,1.0
+China_MotorBike_000775.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000778.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000786.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_MotorBike_000788.jpg,1,1,linear_crack,linear_crack,1,1,0,4,3,2,1.0
+China_MotorBike_000792.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000796.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000801.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,0,11,1,5,1.0
+China_MotorBike_000807.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000809.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000810.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+China_MotorBike_000812.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000821.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+China_MotorBike_000825.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000841.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+China_MotorBike_000844.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000853.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000864.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000876.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000881.jpg,1,1,linear_crack,linear_crack,1,1,1,6,0,1,1.0
+China_MotorBike_000887.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000888.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000889.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_000893.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000915.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_MotorBike_000917.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000936.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000940.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_MotorBike_000948.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000955.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000956.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_000974.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_MotorBike_000977.jpg,1,1,linear_crack,linear_crack,1,1,0,1,3,7,1.0
+China_MotorBike_000978.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_MotorBike_000982.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000985.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_MotorBike_000986.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+China_MotorBike_000987.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_000995.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+China_MotorBike_000996.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,5,0,0,1.0
+China_MotorBike_001005.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001015.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_MotorBike_001018.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+China_MotorBike_001024.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001039.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001040.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001062.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001069.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001074.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,1,0,1.0
+China_MotorBike_001091.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_MotorBike_001095.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001099.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001107.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001108.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001109.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001116.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001117.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+China_MotorBike_001118.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001121.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+China_MotorBike_001124.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,4,1.0
+China_MotorBike_001127.jpg,1,1,linear_crack,linear_crack,1,1,1,5,0,0,1.0
+China_MotorBike_001146.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+China_MotorBike_001147.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001159.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001163.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001165.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_MotorBike_001169.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001177.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001179.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001188.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_001191.jpg,1,1,linear_crack,linear_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001192.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_MotorBike_001193.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001203.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001208.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001209.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001210.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001214.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001217.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+China_MotorBike_001218.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001227.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001232.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001233.jpg,2,3,pothole + linear_crack,pothole + linear_crack + alligator_crack,0,1,0,2,2,2,1.0
+China_MotorBike_001236.jpg,1,2,pothole,pothole + alligator_crack,0,1,1,2,0,1,1.0
+China_MotorBike_001238.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,6,1.0
+China_MotorBike_001244.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001254.jpg,1,1,linear_crack,linear_crack,1,1,1,5,0,1,1.0
+China_MotorBike_001261.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+China_MotorBike_001293.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+China_MotorBike_001302.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001303.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,4,0,1,1.0
+China_MotorBike_001305.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001306.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001309.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001313.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001318.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001344.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001352.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001356.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001378.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001379.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001380.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001384.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001388.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001397.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001398.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001405.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001417.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001419.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001425.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001432.jpg,1,1,linear_crack,linear_crack,1,1,0,4,1,0,1.0
+China_MotorBike_001433.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_001434.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001438.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+China_MotorBike_001439.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+China_MotorBike_001446.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001461.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+China_MotorBike_001463.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001475.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_MotorBike_001484.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001498.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,1,1.0
+China_MotorBike_001500.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001504.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,3,1.0
+China_MotorBike_001509.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001513.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_MotorBike_001517.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001520.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,6,0,0,1.0
+China_MotorBike_001521.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,4,1,1,1.0
+China_MotorBike_001522.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001527.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,2,1.0
+China_MotorBike_001530.jpg,1,1,linear_crack,linear_crack,1,1,0,1,3,0,1.0
+China_MotorBike_001534.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001540.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001545.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_MotorBike_001548.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001553.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,5,0,0,1.0
+China_MotorBike_001563.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+China_MotorBike_001578.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+China_MotorBike_001609.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001619.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001623.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001627.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001631.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,5,0,0,1.0
+China_MotorBike_001636.jpg,1,1,linear_crack,linear_crack,1,1,0,5,1,1,1.0
+China_MotorBike_001639.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001644.jpg,1,1,linear_crack,linear_crack,1,1,1,5,0,1,1.0
+China_MotorBike_001650.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001657.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,2,1.0
+China_MotorBike_001660.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001681.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,5,1,1,1.0
+China_MotorBike_001692.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_001696.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001700.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001704.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,2,1.0
+China_MotorBike_001705.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001709.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001719.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001720.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001727.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001739.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001742.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001745.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001751.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+China_MotorBike_001764.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001767.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001768.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001798.jpg,1,1,linear_crack,linear_crack,1,1,0,7,1,1,1.0
+China_MotorBike_001801.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,1,1.0
+China_MotorBike_001805.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001813.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001815.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,4,0,0,1.0
+China_MotorBike_001818.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001822.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+China_MotorBike_001829.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001840.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001852.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+China_MotorBike_001864.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001865.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+China_MotorBike_001872.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001891.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+China_MotorBike_001907.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001921.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+China_MotorBike_001929.jpg,1,1,linear_crack,linear_crack,1,1,0,1,4,2,1.0
+China_MotorBike_001936.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+China_MotorBike_001940.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+China_MotorBike_001942.jpg,1,1,linear_crack,linear_crack,1,1,0,7,1,2,1.0
+China_MotorBike_001971.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_000038.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_000053.jpg,2,2,linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,1,2,1,0.5
+India_000090.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_000285.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000310.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000323.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,2,0,1.0
+India_000352.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,0,4,1,0.0
+India_000361.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,1,3,1,0.5
+India_000368.jpg,2,3,pothole + linear_crack,pothole + linear_crack + alligator_crack,0,1,0,4,1,2,1.0
+India_000371.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+India_000427.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000446.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_000455.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000466.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,4,1,0.5
+India_000471.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000475.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,4,3,0.5
+India_000478.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+India_000480.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000483.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000485.jpg,1,1,pothole,pothole,1,0,0,0,1,2,0.0
+India_000486.jpg,2,1,pothole + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+India_000500.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000517.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,2,0,1.0
+India_000561.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_000591.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_000603.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_000627.jpg,1,2,pothole,pothole + linear_crack,0,0,0,0,1,2,0.0
+India_000628.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_000665.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,4,1,0.0
+India_000705.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,1,1.0
+India_000710.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,3,0,3,1.0
+India_000718.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_000742.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_000746.jpg,1,2,pothole,pothole + alligator_crack,0,1,1,1,0,1,1.0
+India_000756.jpg,2,0,pothole + linear_crack,none,0,0,0,0,2,0,0.0
+India_000785.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+India_000798.jpg,1,2,linear_crack,pothole + linear_crack,0,0,0,0,1,2,0.0
+India_000808.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,3,2,1,0.5
+India_000815.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000830.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000839.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,2,1,0.0
+India_000892.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0
+India_000965.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_000997.jpg,1,1,pothole,linear_crack,0,0,0,0,1,1,0.0
+India_001005.jpg,1,0,pothole,none,0,0,0,0,2,0,0.0
+India_001030.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001037.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,0,3,1,0.0
+India_001041.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_001046.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+India_001068.jpg,2,1,linear_crack + alligator_crack,pothole,0,0,0,0,2,1,0.0
+India_001105.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_001121.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,1,0.5
+India_001135.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_001156.jpg,1,1,pothole,pothole,1,1,0,4,2,0,1.0
+India_001167.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,1,2,1,1.0
+India_001186.jpg,2,1,pothole + linear_crack,pothole,0,0,0,2,1,0,0.5
+India_001200.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+India_001225.jpg,1,0,pothole,none,0,0,0,0,2,0,0.0
+India_001247.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,2,1.0
+India_001287.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,0,9,3,0.0
+India_001291.jpg,1,1,alligator_crack,pothole,0,0,0,0,1,1,0.0
+India_001305.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+India_001321.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_001336.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001392.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,2,0,0.5
+India_001400.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_001418.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_001432.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001439.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+India_001446.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001478.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,3,1,0.0
+India_001496.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+India_001516.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_001526.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+India_001541.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,0,0.5
+India_001550.jpg,2,2,pothole + linear_crack,pothole + alligator_crack,0,0,0,5,4,4,0.5
+India_001580.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_001590.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,1,0.5
+India_001599.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001611.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001623.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001627.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+India_001635.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_001659.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_001668.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+India_001679.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,3,1,0.0
+India_001684.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+India_001689.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+India_001690.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_001702.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001722.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,1,9,1,0.3333333333333333
+India_001744.jpg,1,1,pothole,pothole,1,1,0,2,2,0,1.0
+India_001755.jpg,1,2,linear_crack,pothole + linear_crack,0,0,0,0,1,2,0.0
+India_001783.jpg,1,1,pothole,pothole,1,1,0,1,2,0,1.0
+India_001789.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_001809.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_001877.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,2,1,0.5
+India_001902.jpg,1,1,pothole,pothole,1,1,0,1,4,2,1.0
+India_001903.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_001906.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,2,1,0,1.0
+India_001925.jpg,1,1,pothole,pothole,1,0,0,0,2,1,0.0
+India_001957.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_001967.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_001974.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_002026.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+India_002064.jpg,1,1,pothole,pothole,1,1,0,1,3,1,1.0
+India_002065.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_002101.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002133.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_002167.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+India_002172.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+India_002180.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+India_002194.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+India_002207.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,2,0,2,1.0
+India_002248.jpg,1,1,pothole,pothole,1,1,0,1,2,0,1.0
+India_002262.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002290.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002304.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_002321.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+India_002366.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_002368.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002376.jpg,1,1,pothole,pothole,1,1,0,2,2,1,1.0
+India_002378.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+India_002390.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_002395.jpg,1,1,pothole,pothole,1,1,0,2,1,0,1.0
+India_002411.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_002480.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_002508.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_002509.jpg,3,1,pothole + linear_crack + alligator_crack,pothole,0,0,0,1,4,1,0.3333333333333333
+India_002522.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+India_002544.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002556.jpg,1,2,linear_crack,pothole + linear_crack,0,1,0,1,1,1,1.0
+India_002558.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,0,0,0,2,2,0.0
+India_002592.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002608.jpg,1,1,pothole,pothole,1,1,0,3,1,1,1.0
+India_002611.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,2,0,0.5
+India_002644.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_002666.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_002673.jpg,1,1,pothole,pothole,1,0,0,0,1,2,0.0
+India_002689.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+India_002726.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+India_002757.jpg,2,1,pothole + linear_crack,alligator_crack,0,0,0,0,4,2,0.0
+India_002839.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_002860.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_002880.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+India_002881.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_002925.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,0,0,1,2,1,0.5
+India_002954.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,3,1,0,0.6666666666666666
+India_002981.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_002994.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_003002.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003013.jpg,1,1,pothole,pothole,1,1,0,3,5,4,1.0
+India_003016.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003033.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,2,0,0,1.0
+India_003045.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_003102.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,4,5,3,0.6666666666666666
+India_003120.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+India_003121.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_003143.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+India_003177.jpg,1,1,pothole,pothole,1,0,0,0,1,1,0.0
+India_003215.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_003239.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_003256.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+India_003265.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003294.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003300.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003312.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_003384.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,3,0,1.0
+India_003422.jpg,1,1,pothole,pothole,1,0,0,0,1,1,0.0
+India_003505.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,2,5,0.5
+India_003535.jpg,2,3,pothole + linear_crack,pothole + linear_crack + alligator_crack,0,0,0,3,3,3,0.5
+India_003569.jpg,1,2,linear_crack,pothole + linear_crack,0,1,1,1,0,1,1.0
+India_003634.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+India_003651.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+India_003668.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+India_003677.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003681.jpg,1,2,linear_crack,pothole + alligator_crack,0,0,0,0,1,2,0.0
+India_003696.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_003699.jpg,1,1,pothole,pothole,1,1,1,1,0,1,1.0
+India_003709.jpg,1,1,pothole,pothole,1,0,0,0,1,1,0.0
+India_003710.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_003731.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+India_003742.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_003820.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_003825.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,2,3,0.5
+India_003842.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,3,0,0.5
+India_003901.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,2,1,0.0
+India_003920.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_003941.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,1,5,2,0.3333333333333333
+India_003943.jpg,1,1,linear_crack,linear_crack,1,1,0,3,4,1,1.0
+India_003967.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_003973.jpg,1,0,pothole,none,0,0,0,0,3,0,0.0
+India_003983.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004029.jpg,1,1,pothole,pothole,1,1,0,1,2,2,1.0
+India_004040.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004060.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_004061.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+India_004116.jpg,1,1,pothole,alligator_crack,0,0,0,0,1,1,0.0
+India_004132.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,1,1,0.5
+India_004136.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,1,2,1,0.3333333333333333
+India_004162.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004184.jpg,1,1,pothole,linear_crack,0,0,0,0,2,2,0.0
+India_004194.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+India_004199.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+India_004226.jpg,1,1,pothole,pothole,1,0,0,0,2,1,0.0
+India_004233.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_004257.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004273.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_004274.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004293.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,2,2,1,0.6666666666666666
+India_004316.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004340.jpg,1,2,pothole,pothole + linear_crack,0,1,0,2,3,2,1.0
+India_004343.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,0,4,2,0.0
+India_004375.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004376.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,0,2,2,0.0
+India_004414.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_004430.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_004437.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004448.jpg,1,1,linear_crack,pothole,0,0,0,0,1,1,0.0
+India_004548.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+India_004551.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,3,1,0,0.6666666666666666
+India_004626.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+India_004651.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_004657.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_004663.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_004701.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + linear_crack,0,0,0,3,5,1,0.6666666666666666
+India_004704.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+India_004705.jpg,1,2,pothole,pothole + linear_crack,0,1,1,1,0,1,1.0
+India_004709.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+India_004756.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+India_004770.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+India_004853.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004891.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_004911.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+India_004965.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_004981.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_004987.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_005005.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+India_005022.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,0,0,1,4,2,0.5
+India_005067.jpg,1,1,pothole,pothole,1,0,0,0,1,3,0.0
+India_005121.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_005143.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_005174.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_005210.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_005219.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,4,1,0.5
+India_005294.jpg,1,0,pothole,none,0,0,0,0,2,0,0.0
+India_005343.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_005411.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,0,2,2,0.0
+India_005436.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,2,0,0,1.0
+India_005446.jpg,1,1,pothole,pothole,1,0,0,0,1,2,0.0
+India_005557.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_005579.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_005580.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_005636.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_005717.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,3,2,0.5
+India_005728.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+India_005762.jpg,2,1,pothole + linear_crack,linear_crack,0,0,0,1,2,0,0.5
+India_005788.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_005812.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_005839.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_005848.jpg,1,1,linear_crack,pothole,0,0,0,0,1,1,0.0
+India_005876.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_005884.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_005886.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,2,0.5
+India_005936.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+India_005938.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + linear_crack,0,0,0,2,2,0,0.6666666666666666
+India_005941.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_005974.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_005975.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+India_005993.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,1,0,1.0
+India_006004.jpg,1,1,pothole,pothole,1,0,0,0,1,1,0.0
+India_006030.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+India_006057.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_006174.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,0,0,1,1,1,0.5
+India_006214.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,1,1,1,1.0
+India_006266.jpg,2,2,linear_crack + alligator_crack,pothole + linear_crack,0,0,0,1,1,1,0.5
+India_006320.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,2,0.5
+India_006322.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,1,0.5
+India_006326.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_006328.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_006338.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_006363.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_006386.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+India_006397.jpg,1,1,pothole,pothole,1,1,0,1,4,6,1.0
+India_006433.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,7,2,1,0.6666666666666666
+India_006460.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+India_006476.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_006491.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_006537.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_006580.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,1,1.0
+India_006595.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,2,1,0,1.0
+India_006656.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_006691.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,2,2,2,1.0
+India_006769.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_006773.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_006787.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,3,2,2,0.6666666666666666
+India_006815.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_006823.jpg,1,2,alligator_crack,pothole + alligator_crack,0,0,0,0,2,2,0.0
+India_006825.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_006845.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_006851.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+India_006874.jpg,3,1,pothole + linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.3333333333333333
+India_006920.jpg,1,0,pothole,none,0,0,0,0,3,0,0.0
+India_006933.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,1,2,1,1.0
+India_006938.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,0,0,1,2,1,0.5
+India_006960.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_006976.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,1,0,1,1.0
+India_006977.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,3,6,4,0.6666666666666666
+India_007033.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,0,3,2,0.0
+India_007043.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007066.jpg,1,1,pothole,pothole,1,1,0,2,3,0,1.0
+India_007069.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007099.jpg,1,1,alligator_crack,pothole,0,0,0,0,1,1,0.0
+India_007105.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_007123.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,1,1,1,1.0
+India_007130.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_007137.jpg,1,2,alligator_crack,pothole + alligator_crack,0,0,0,0,1,3,0.0
+India_007141.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_007224.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007226.jpg,1,2,pothole,pothole + alligator_crack,0,1,1,1,0,1,1.0
+India_007276.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_007293.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_007323.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007342.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,1,3,1,0.3333333333333333
+India_007362.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,4,3,2,1.0
+India_007377.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007387.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007397.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+India_007457.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+India_007458.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_007498.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_007516.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+India_007533.jpg,1,2,linear_crack,pothole + linear_crack,0,1,0,1,1,1,1.0
+India_007539.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_007592.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,1,1,0,0.5
+India_007615.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_007621.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_007644.jpg,1,1,pothole,pothole,1,1,0,3,3,2,1.0
+India_007647.jpg,1,2,pothole,pothole + alligator_crack,0,0,0,0,2,2,0.0
+India_007670.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007672.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_007676.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,1,0,1,1.0
+India_007691.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_007707.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,2,1,2,0.6666666666666666
+India_007722.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_007749.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,3,4,2,0.5
+India_007758.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_007810.jpg,1,1,pothole,pothole,1,1,0,1,3,0,1.0
+India_007884.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+India_007900.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_007922.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+India_007966.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_007998.jpg,3,1,pothole + linear_crack + alligator_crack,alligator_crack,0,0,0,2,5,0,0.3333333333333333
+India_008014.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,2,0,0.5
+India_008034.jpg,1,1,pothole,pothole,1,0,0,0,2,3,0.0
+India_008107.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+India_008128.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,4,1,0.0
+India_008133.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_008177.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,2,0.5
+India_008186.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,2,1.0
+India_008195.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_008215.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+India_008218.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,1,4,1,1.0
+India_008226.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,1,0.5
+India_008227.jpg,3,1,pothole + linear_crack + alligator_crack,alligator_crack,0,0,0,0,3,1,0.0
+India_008228.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_008233.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + linear_crack,0,0,0,3,5,1,0.6666666666666666
+India_008237.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+India_008247.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+India_008249.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,0,3,1,0,1.0
+India_008250.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_008292.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_008296.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_008307.jpg,1,1,linear_crack,pothole,0,0,0,0,1,1,0.0
+India_008317.jpg,3,1,pothole + linear_crack + alligator_crack,pothole,0,0,0,2,5,2,0.3333333333333333
+India_008355.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_008375.jpg,1,1,alligator_crack,pothole,0,0,0,0,1,1,0.0
+India_008376.jpg,1,2,linear_crack,pothole + alligator_crack,0,0,0,0,1,2,0.0
+India_008389.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_008391.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_008396.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+India_008435.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+India_008436.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_008466.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_008486.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+India_008499.jpg,1,2,pothole,pothole + linear_crack,0,1,1,1,0,2,1.0
+India_008523.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_008569.jpg,1,2,pothole,pothole + linear_crack,0,1,1,1,0,4,1.0
+India_008620.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,4,1,2,1.0
+India_008639.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,3,1,1.0
+India_008650.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_008701.jpg,3,1,pothole + linear_crack + alligator_crack,pothole,0,0,0,2,4,2,0.3333333333333333
+India_008707.jpg,1,2,alligator_crack,pothole + alligator_crack,0,0,0,0,1,2,0.0
+India_008792.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_008802.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + linear_crack,0,0,0,2,1,1,0.6666666666666666
+India_008812.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_008813.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+India_008821.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+India_008853.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_008878.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+India_008889.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+India_008915.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_008950.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+India_008963.jpg,1,1,pothole,alligator_crack,0,0,0,0,1,1,0.0
+India_008971.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,2,5,0,0.6666666666666666
+India_008982.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_008993.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_008999.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_009068.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,1,0,1,1.0
+India_009071.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+India_009077.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009107.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009119.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+India_009167.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,2,1,0.5
+India_009173.jpg,1,1,pothole,pothole,1,0,0,0,2,1,0.0
+India_009193.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009205.jpg,1,1,pothole,pothole,1,0,0,0,1,1,0.0
+India_009221.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+India_009225.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,4,2,1.0
+India_009229.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009245.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,2,1,1,0.6666666666666666
+India_009249.jpg,1,1,pothole,linear_crack,0,0,0,0,2,1,0.0
+India_009250.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+India_009272.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,2,2,1,0.6666666666666666
+India_009339.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+India_009340.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,3,2,0.0
+India_009349.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009370.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_009389.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,2,2,0,1.0
+India_009436.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,3,4,2,1.0
+India_009446.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,2,0.0
+India_009448.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+India_009449.jpg,1,1,linear_crack,pothole,0,0,0,0,3,1,0.0
+India_009458.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,1,1,0,0.5
+India_009526.jpg,1,2,pothole,pothole + alligator_crack,0,1,1,1,0,2,1.0
+India_009541.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009564.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,0,0,1,2,2,0.5
+India_009573.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,2,1,0,0.6666666666666666
+India_009586.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,2,1,0.5
+India_009588.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+India_009595.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+India_009618.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,1,1.0
+India_009640.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_009666.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+India_009675.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009679.jpg,1,1,pothole,pothole,1,0,0,0,1,3,0.0
+India_009688.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_009715.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+India_009750.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+India_009782.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_009793.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+India_009794.jpg,1,2,pothole,pothole + alligator_crack,0,1,1,3,0,2,1.0
+India_009815.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+India_009832.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+India_009836.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_000009.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000014.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_000019.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000035.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_000036.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000049.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,3,1,0.5
+Japan_000063.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+Japan_000076.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_000079.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+Japan_000090.jpg,1,2,pothole,pothole + linear_crack,0,1,1,1,0,2,1.0
+Japan_000100.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_000103.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_000105.jpg,1,0,linear_crack,none,0,0,0,0,3,0,0.0
+Japan_000127.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_000131.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_000140.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000155.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_000164.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,2,1,0.0
+Japan_000169.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000176.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0
+Japan_000179.jpg,1,2,alligator_crack,pothole + alligator_crack,0,0,0,0,2,2,0.0
+Japan_000201.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000205.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_000228.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000242.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000256.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000260.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+Japan_000263.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_000273.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_000275.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000278.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+Japan_000285.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,4,1.0
+Japan_000301.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,2,2,1.0
+Japan_000302.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,2,1,1.0
+Japan_000315.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_000332.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,3,1,3,0.5
+Japan_000365.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_000368.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_000369.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,1,1.0
+Japan_000404.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,1,0,1,1.0
+Japan_000426.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,0,0.5
+Japan_000434.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+Japan_000438.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,3,1.0
+Japan_000440.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,3,1,1.0
+Japan_000442.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000445.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000446.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,1,2,2,0.5
+Japan_000447.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,1,1,2,1.0
+Japan_000453.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,2,3,1,0.6666666666666666
+Japan_000463.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000464.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,1,0,0.5
+Japan_000486.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+Japan_000498.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_000506.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000554.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_000583.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_000592.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_000598.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_000599.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_000605.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_000611.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_000613.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_000644.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,0,1.0
+Japan_000645.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000648.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+Japan_000650.jpg,2,1,pothole + linear_crack,linear_crack,0,0,0,1,2,2,0.5
+Japan_000658.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_000680.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000691.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+Japan_000707.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000709.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+Japan_000736.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+Japan_000759.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000774.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+Japan_000793.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_000794.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_000797.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_000875.jpg,1,2,alligator_crack,pothole + linear_crack,0,0,0,0,1,3,0.0
+Japan_000885.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000901.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+Japan_000917.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+Japan_000934.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+Japan_000945.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000952.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_000964.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_000994.jpg,1,1,pothole,linear_crack,0,0,0,0,1,1,0.0
+Japan_001022.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+Japan_001050.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_001076.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,2,0.5
+Japan_001077.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,4,0,2,1.0
+Japan_001078.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,4,0,1.0
+Japan_001098.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_001112.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_001114.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,1,1.0
+Japan_001116.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001119.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001138.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001143.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,1,1.0
+Japan_001174.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_001180.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,2,1.0
+Japan_001193.jpg,1,2,linear_crack,pothole + linear_crack,0,1,0,3,1,1,1.0
+Japan_001196.jpg,2,3,linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,0,0,0,1,2,2,0.5
+Japan_001200.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001221.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001230.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001299.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001311.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,2,1.0
+Japan_001318.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,1,1.0
+Japan_001323.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001327.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+Japan_001330.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001339.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_001357.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_001364.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001416.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_001419.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_001421.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,3,0.0
+Japan_001438.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_001441.jpg,2,1,pothole + linear_crack,linear_crack,0,0,0,1,3,1,0.5
+Japan_001447.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_001460.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001471.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,0,2,2,2,1.0
+Japan_001492.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001493.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+Japan_001522.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_001548.jpg,1,1,linear_crack,linear_crack,1,1,0,1,5,3,1.0
+Japan_001559.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001569.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_001586.jpg,1,1,linear_crack,linear_crack,1,1,0,2,3,0,1.0
+Japan_001588.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001617.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_001641.jpg,2,1,pothole + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+Japan_001683.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001686.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,2,1.0
+Japan_001690.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,2,4,1,0.5
+Japan_001707.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_001715.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_001730.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,2,3,1,0.5
+Japan_001733.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_001739.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_001741.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_001742.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+Japan_001746.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001752.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_001768.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001777.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_001779.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001785.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_001791.jpg,1,2,pothole,pothole + alligator_crack,0,1,0,1,1,3,1.0
+Japan_001793.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_001815.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,5,1.0
+Japan_001822.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,1,3,0.0
+Japan_001823.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001862.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,2,1,0.5
+Japan_001885.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_001886.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001893.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_001907.jpg,1,1,alligator_crack,alligator_crack,1,1,0,2,1,0,1.0
+Japan_001910.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,1,2,0.5
+Japan_001914.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_001916.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_001920.jpg,1,1,pothole,pothole,1,1,1,3,0,0,1.0
+Japan_001921.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_001922.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001950.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,5,0,0.5
+Japan_001961.jpg,1,1,alligator_crack,alligator_crack,1,1,0,2,1,0,1.0
+Japan_001963.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_001969.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_001971.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,3,2,0.5
+Japan_001978.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,0,0.5
+Japan_001989.jpg,1,1,linear_crack,linear_crack,1,1,0,1,5,2,1.0
+Japan_001996.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_002008.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,2,1,0.0
+Japan_002023.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_002032.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+Japan_002035.jpg,1,1,linear_crack,linear_crack,1,1,0,3,2,1,1.0
+Japan_002060.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_002063.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_002070.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,1,6,4,0.3333333333333333
+Japan_002074.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_002119.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002120.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,1,1.0
+Japan_002125.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,2,0.0
+Japan_002133.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,0,1.0
+Japan_002158.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+Japan_002181.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_002185.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,0,1.0
+Japan_002210.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,4,1,2,1.0
+Japan_002238.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_002254.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_002256.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+Japan_002260.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_002295.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,0,1.0
+Japan_002299.jpg,1,3,linear_crack,pothole + linear_crack + alligator_crack,0,0,0,0,1,3,0.0
+Japan_002302.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_002308.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002313.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_002317.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+Japan_002330.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_002331.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,2,1.0
+Japan_002338.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_002389.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,2,0,1,1.0
+Japan_002392.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002404.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_002408.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002411.jpg,2,3,linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,0,0,0,1,1,2,0.5
+Japan_002417.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+Japan_002419.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+Japan_002424.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,2,1,2,0.5
+Japan_002438.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,0,3,1,0.0
+Japan_002467.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+Japan_002468.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_002474.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+Japan_002476.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002492.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002497.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,2,1,1.0
+Japan_002510.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_002518.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002523.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,0,6,1,3,1.0
+Japan_002545.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_002591.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002592.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002607.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,2,0,1.0
+Japan_002626.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+Japan_002640.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_002660.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+Japan_002684.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,3,1,0.0
+Japan_002685.jpg,1,1,linear_crack,linear_crack,1,1,0,3,2,1,1.0
+Japan_002690.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,2,2,1,0.6666666666666666
+Japan_002701.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,2,1.0
+Japan_002714.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002716.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002718.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+Japan_002731.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_002743.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002745.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0
+Japan_002772.jpg,1,1,pothole,pothole,1,1,0,2,1,2,1.0
+Japan_002785.jpg,1,1,pothole,linear_crack,0,0,0,0,2,1,0.0
+Japan_002789.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,2,1.0
+Japan_002803.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_002804.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002806.jpg,1,1,alligator_crack,alligator_crack,1,1,1,3,0,0,1.0
+Japan_002847.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,0,1.0
+Japan_002885.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,0,1.0
+Japan_002901.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002911.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_002916.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002934.jpg,1,1,linear_crack,linear_crack,1,1,0,5,5,1,1.0
+Japan_002939.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_002942.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_002951.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,5,1.0
+Japan_002973.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_002978.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_002988.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+Japan_002992.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_002993.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_003002.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_003003.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_003009.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_003033.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,2,0,0.5
+Japan_003034.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_003077.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,4,1,0.0
+Japan_003080.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+Japan_003092.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003115.jpg,1,1,pothole,pothole,1,0,0,0,1,3,0.0
+Japan_003125.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,2,1.0
+Japan_003127.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_003131.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+Japan_003154.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_003155.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,3,1.0
+Japan_003164.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,2,4,3,0.5
+Japan_003177.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+Japan_003187.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_003198.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,2,1,0.0
+Japan_003224.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,4,0,0,1.0
+Japan_003233.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003268.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,0,1.0
+Japan_003287.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003290.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_003299.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_003303.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,1,0.5
+Japan_003343.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_003345.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,2,0.0
+Japan_003361.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_003367.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_003386.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,2,1.0
+Japan_003398.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,2,1,0.5
+Japan_003470.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_003474.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,1,0,1.0
+Japan_003479.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003482.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_003494.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,4,3,0.5
+Japan_003496.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_003534.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_003544.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_003558.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,2,2,2,1.0
+Japan_003580.jpg,1,1,alligator_crack,alligator_crack,1,1,0,2,1,0,1.0
+Japan_003585.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,0,1.0
+Japan_003609.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_003646.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_003668.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,1,0,1,1.0
+Japan_003670.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,4,1,0,1.0
+Japan_003676.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_003704.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003729.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+Japan_003742.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003747.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_003754.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_003759.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_003794.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,3,1,1.0
+Japan_003797.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_003816.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003830.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,2,1.0
+Japan_003843.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_003849.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003858.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_003859.jpg,1,0,pothole,none,0,0,0,0,2,0,0.0
+Japan_003860.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003864.jpg,1,1,linear_crack,linear_crack,1,1,0,3,2,1,1.0
+Japan_003880.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003881.jpg,1,0,pothole,none,0,0,0,0,6,0,0.0
+Japan_003895.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,1,2,2,1.0
+Japan_003899.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_003900.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003905.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_003914.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_003956.jpg,1,3,pothole,pothole + linear_crack + alligator_crack,0,0,0,0,1,4,0.0
+Japan_003961.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+Japan_003962.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+Japan_003986.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,2,1,0.5
+Japan_003990.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004000.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004030.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004033.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_004042.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+Japan_004053.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004055.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004056.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,1,1.0
+Japan_004066.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,1,1,0.5
+Japan_004073.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_004079.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+Japan_004082.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004111.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004116.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004121.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_004139.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_004143.jpg,2,1,pothole + linear_crack,linear_crack,0,0,0,2,5,2,0.5
+Japan_004165.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_004174.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,4,0.0
+Japan_004182.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_004204.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_004225.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_004228.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,2,1,0.5
+Japan_004232.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,2,4,1,1.0
+Japan_004242.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,1,0.5
+Japan_004262.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_004263.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+Japan_004275.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004284.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,1,2,0.5
+Japan_004300.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004308.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_004313.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+Japan_004322.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_004337.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,3,1,1,0.6666666666666666
+Japan_004342.jpg,1,1,pothole,pothole,1,1,0,2,1,0,1.0
+Japan_004343.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,2,2,0.0
+Japan_004344.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004347.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_004366.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_004377.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004381.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_004387.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,1,1.0
+Japan_004405.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004433.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_004459.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004463.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_004466.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+Japan_004467.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004476.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,3,3,4,0.3333333333333333
+Japan_004484.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_004495.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004503.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,3,0.5
+Japan_004507.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004508.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004513.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+Japan_004514.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_004517.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004539.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004547.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_004549.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,4,0,0.0
+Japan_004552.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004555.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004582.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004587.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_004590.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+Japan_004602.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,2,1.0
+Japan_004615.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+Japan_004622.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+Japan_004627.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,4,2,0.0
+Japan_004642.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004651.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004653.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_004661.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,4,3,0,1.0
+Japan_004676.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_004706.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,3,0,0.5
+Japan_004708.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004748.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004754.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004777.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_004798.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,2,1,0.5
+Japan_004799.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_004822.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,2,0,1.0
+Japan_004847.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,2,1,0,0.6666666666666666
+Japan_004857.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004867.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,2,0.5
+Japan_004878.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+Japan_004881.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,2,1.0
+Japan_004884.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_004901.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_004907.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_004929.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_004938.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_004963.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+Japan_004972.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_004980.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_005014.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+Japan_005031.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_005054.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_005065.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+Japan_005067.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_005069.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_005071.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+Japan_005105.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005109.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_005122.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005124.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+Japan_005129.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_005151.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+Japan_005152.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005153.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+Japan_005164.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_005169.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_005182.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+Japan_005183.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,0,1.0
+Japan_005195.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_005200.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005206.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_005207.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+Japan_005233.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005244.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005248.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_005249.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005256.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_005290.jpg,1,1,linear_crack,linear_crack,1,1,0,3,2,1,1.0
+Japan_005299.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_005300.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005313.jpg,2,2,pothole + alligator_crack,pothole + linear_crack,0,0,0,1,1,1,0.5
+Japan_005327.jpg,1,1,pothole,pothole,1,1,0,2,1,0,1.0
+Japan_005338.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,2,2,1.0
+Japan_005380.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,0,1.0
+Japan_005386.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005425.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,2,1.0
+Japan_005443.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005454.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_005490.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_005494.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005516.jpg,1,2,pothole,pothole + linear_crack,0,1,1,1,0,1,1.0
+Japan_005536.jpg,2,1,pothole + linear_crack,pothole,0,0,0,2,1,0,0.5
+Japan_005578.jpg,3,1,pothole + linear_crack + alligator_crack,alligator_crack,0,0,0,1,10,1,0.3333333333333333
+Japan_005591.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_005595.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005596.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005617.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_005629.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005659.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,2,1.0
+Japan_005672.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005682.jpg,1,1,linear_crack,linear_crack,1,1,0,3,2,1,1.0
+Japan_005686.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,3,1.0
+Japan_005706.jpg,1,2,pothole,pothole + linear_crack,0,1,0,2,2,2,1.0
+Japan_005720.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005726.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,2,1.0
+Japan_005732.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005737.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005763.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_005764.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_005777.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,4,1,0.0
+Japan_005800.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_005804.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,4,1,0,1.0
+Japan_005810.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005824.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,2,2,0,0.5
+Japan_005828.jpg,2,0,pothole + alligator_crack,none,0,0,0,0,3,0,0.0
+Japan_005839.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_005842.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,1,0.5
+Japan_005864.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005869.jpg,1,1,pothole,alligator_crack,0,0,0,0,1,1,0.0
+Japan_005892.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+Japan_005900.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005907.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+Japan_005910.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,3,1,0.5
+Japan_005925.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_005932.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_005946.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_005963.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_005967.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_005968.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_005975.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_005977.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_005998.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0
+Japan_006001.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,0,2,1,3,1.0
+Japan_006019.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_006023.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,1,0.5
+Japan_006025.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,5,1,3,1.0
+Japan_006034.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_006039.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_006057.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,3,2,0.0
+Japan_006059.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+Japan_006063.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_006071.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+Japan_006074.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_006081.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006086.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_006101.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_006121.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006154.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_006160.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_006169.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,1,3,3,0.3333333333333333
+Japan_006174.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,2,1,1,0.5
+Japan_006182.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,1,3,1,0.3333333333333333
+Japan_006190.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+Japan_006204.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,3,2,1.0
+Japan_006224.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_006227.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_006243.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_006252.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_006258.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+Japan_006265.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_006266.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_006275.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,4,2,0.5
+Japan_006278.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006279.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+Japan_006326.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,2,0.0
+Japan_006334.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,4,3,0.5
+Japan_006352.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,3,0,0.5
+Japan_006360.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_006369.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_006370.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+Japan_006411.jpg,1,1,linear_crack,linear_crack,1,1,0,3,4,2,1.0
+Japan_006422.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_006430.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_006436.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,0,1.0
+Japan_006457.jpg,2,0,pothole + linear_crack,none,0,0,0,0,2,0,0.0
+Japan_006464.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_006476.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_006505.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+Japan_006506.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,0,4,1,0.0
+Japan_006524.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_006534.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006549.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_006552.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_006561.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+Japan_006608.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_006626.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_006662.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_006685.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,2,1.0
+Japan_006695.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,2,1.0
+Japan_006700.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,0,2,1,0.0
+Japan_006701.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006704.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_006724.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006725.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_006732.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,5,6,3,0.6666666666666666
+Japan_006752.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,1,1.0
+Japan_006755.jpg,1,2,pothole,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_006759.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,0,1,1,1,1.0
+Japan_006771.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_006784.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_006811.jpg,1,1,linear_crack,linear_crack,1,1,0,3,5,0,1.0
+Japan_006817.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,2,1,0.5
+Japan_006824.jpg,1,1,pothole,pothole,1,1,0,3,2,0,1.0
+Japan_006866.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,2,2,1.0
+Japan_006875.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,2,0,2,1.0
+Japan_006890.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_006893.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_006896.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_006905.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_006908.jpg,1,1,linear_crack,linear_crack,1,1,0,4,2,0,1.0
+Japan_006921.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_006936.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,2,0,1.0
+Japan_006972.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,2,0.0
+Japan_006979.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_006981.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_006988.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_006995.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+Japan_007035.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_007057.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_007062.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+Japan_007066.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,6,1,0,1.0
+Japan_007090.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,3,1,0.5
+Japan_007093.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_007095.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007101.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007114.jpg,1,1,pothole,pothole,1,1,0,1,1,0,1.0
+Japan_007127.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,4,1,0,1.0
+Japan_007137.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007148.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+Japan_007149.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_007153.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+Japan_007159.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007162.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_007166.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_007168.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+Japan_007179.jpg,1,1,linear_crack,linear_crack,1,1,0,4,3,2,1.0
+Japan_007195.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007247.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_007250.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,1,1.0
+Japan_007259.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+Japan_007279.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_007280.jpg,2,1,pothole + linear_crack,linear_crack,0,0,0,2,2,0,0.5
+Japan_007286.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007322.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_007333.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_007337.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,1,1,1.0
+Japan_007343.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007348.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_007351.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,3,1,1.0
+Japan_007352.jpg,1,0,alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_007360.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,0,1.0
+Japan_007369.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007374.jpg,2,1,pothole + linear_crack,pothole,0,0,0,1,1,0,0.5
+Japan_007378.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_007393.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007396.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_007397.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007415.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007450.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007453.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007454.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_007460.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,1,1,3,1.0
+Japan_007476.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_007485.jpg,1,3,alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,2,0,4,1.0
+Japan_007492.jpg,1,1,pothole,pothole,1,1,0,2,1,0,1.0
+Japan_007503.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_007505.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007543.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007555.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,2,0.0
+Japan_007556.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,1,0.5
+Japan_007557.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,2,1,1.0
+Japan_007558.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,2,1.0
+Japan_007566.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_007570.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,0,1.0
+Japan_007575.jpg,1,1,linear_crack,linear_crack,1,1,0,1,3,1,1.0
+Japan_007606.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_007617.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+Japan_007626.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+Japan_007639.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_007650.jpg,1,1,linear_crack,linear_crack,1,0,0,0,6,3,0.0
+Japan_007658.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,2,2,1,0.6666666666666666
+Japan_007663.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007673.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007683.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_007692.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,3,0,0.5
+Japan_007717.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,8,2,0.0
+Japan_007722.jpg,1,1,linear_crack,linear_crack,1,1,0,2,4,1,1.0
+Japan_007725.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007728.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_007757.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007765.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_007776.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_007781.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_007786.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_007790.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,2,3,0.0
+Japan_007799.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_007808.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007830.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_007837.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_007857.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,0,1.0
+Japan_007858.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,2,4,0.0
+Japan_007898.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,3,2,0.0
+Japan_007900.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,3,0,2,1.0
+Japan_007915.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,2,1,0,0.5
+Japan_007920.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_007927.jpg,1,1,alligator_crack,alligator_crack,1,1,1,3,0,0,1.0
+Japan_007945.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+Japan_007954.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_007973.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_007974.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_007979.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_008001.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_008006.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008019.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,1,1.0
+Japan_008022.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008023.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008029.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008057.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_008060.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008087.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,4,0,0,1.0
+Japan_008095.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_008104.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+Japan_008107.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,3,0.0
+Japan_008112.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_008114.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0
+Japan_008123.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008168.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_008169.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,2,0,1,1.0
+Japan_008196.jpg,1,1,pothole,pothole,1,1,1,1,0,1,1.0
+Japan_008202.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_008205.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+Japan_008215.jpg,1,1,alligator_crack,alligator_crack,1,1,0,2,2,1,1.0
+Japan_008221.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_008231.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,1,0,1.0
+Japan_008251.jpg,1,2,alligator_crack,pothole + alligator_crack,0,0,0,0,3,3,0.0
+Japan_008280.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,3,4,2,0.6666666666666666
+Japan_008291.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,2,0.0
+Japan_008296.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,2,1,0.0
+Japan_008301.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_008309.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_008313.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_008319.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_008328.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008333.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_008351.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,1,1.0
+Japan_008380.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,2,1.0
+Japan_008381.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008389.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_008395.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008424.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,0,2,4,0.0
+Japan_008433.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,1,3,1,0.3333333333333333
+Japan_008434.jpg,1,2,linear_crack,pothole + linear_crack,0,1,0,1,1,1,1.0
+Japan_008444.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+Japan_008464.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008495.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,0,3,3,0,1.0
+Japan_008496.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,2,1,1,1.0
+Japan_008500.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,3,0,0.0
+Japan_008521.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008526.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,1,1,0,1,1.0
+Japan_008528.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008530.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_008539.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_008545.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+Japan_008588.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_008604.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,5,1,0,0.5
+Japan_008609.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_008622.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_008629.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_008639.jpg,3,1,pothole + linear_crack + alligator_crack,linear_crack,0,0,0,1,3,0,0.3333333333333333
+Japan_008640.jpg,1,1,pothole,pothole,1,1,1,3,0,1,1.0
+Japan_008659.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008672.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_008685.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_008707.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008713.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,0,2,4,0.0
+Japan_008726.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+Japan_008753.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008774.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,3,1,0.5
+Japan_008790.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+Japan_008801.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_008807.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_008835.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008839.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008842.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+Japan_008846.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,8,3,0.5
+Japan_008848.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008872.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008889.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_008914.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_008925.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,2,1,0,0.6666666666666666
+Japan_008932.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_008946.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_008949.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_008960.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_008964.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_008966.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_008970.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_008991.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_008992.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_009016.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,4,0,0.5
+Japan_009019.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,1,1.0
+Japan_009021.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009030.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,3,1.0
+Japan_009032.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,2,0,0.0
+Japan_009054.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,0,2,3,0.0
+Japan_009076.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,0,1.0
+Japan_009086.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+Japan_009097.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009105.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_009115.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_009118.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,2,0.5
+Japan_009119.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009129.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_009147.jpg,1,1,pothole,pothole,1,1,0,1,1,1,1.0
+Japan_009158.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_009174.jpg,2,1,pothole + linear_crack,linear_crack,0,0,0,1,3,0,0.5
+Japan_009197.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,3,1.0
+Japan_009202.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_009209.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_009215.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,0,1.0
+Japan_009224.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,1,1.0
+Japan_009229.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,2,0,1.0
+Japan_009237.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_009257.jpg,1,1,pothole,pothole,1,1,1,1,0,1,1.0
+Japan_009260.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,0,1,1,2,1.0
+Japan_009263.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,3,0,3,1.0
+Japan_009265.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_009274.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_009287.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,2,1,1.0
+Japan_009307.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_009311.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009325.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009331.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_009343.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009344.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_009353.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+Japan_009378.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,3,1.0
+Japan_009396.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_009417.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009433.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009450.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_009465.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,2,3,1.0
+Japan_009471.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_009473.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,1,1,0.0
+Japan_009492.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,2,1,0.5
+Japan_009515.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_009525.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009535.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,3,1.0
+Japan_009542.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_009548.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_009558.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_009559.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,0,2,1,1,1.0
+Japan_009591.jpg,1,1,linear_crack,linear_crack,1,1,0,1,2,0,1.0
+Japan_009631.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_009635.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,1,1.0
+Japan_009656.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,1,1.0
+Japan_009659.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_009666.jpg,1,2,alligator_crack,pothole + linear_crack,0,0,0,0,2,2,0.0
+Japan_009669.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,4,0.5
+Japan_009701.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+Japan_009708.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_009738.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_009742.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_009743.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_009758.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_009776.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_009795.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+Japan_009800.jpg,1,0,linear_crack,none,0,0,0,0,3,0,0.0
+Japan_009856.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,0,1.0
+Japan_009887.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_009909.jpg,2,1,pothole + alligator_crack,pothole,0,0,0,2,3,3,0.5
+Japan_009915.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,4,0,1,1.0
+Japan_009916.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,2,0.0
+Japan_009917.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_009918.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+Japan_009927.jpg,1,1,linear_crack,linear_crack,1,1,0,1,4,1,1.0
+Japan_009928.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_009931.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+Japan_009940.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_009942.jpg,1,2,linear_crack,pothole + linear_crack,0,1,0,2,2,1,1.0
+Japan_009961.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,3,0,0.5
+Japan_009964.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_009968.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,4,1,1.0
+Japan_009973.jpg,1,1,linear_crack,linear_crack,1,1,0,1,6,0,1.0
+Japan_009975.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,1,1,1.0
+Japan_009986.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_010022.jpg,1,0,linear_crack,none,0,0,0,0,2,0,0.0
+Japan_010029.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,1,1.0
+Japan_010035.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010085.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_010098.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010108.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,1,1.0
+Japan_010111.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,1,0.0
+Japan_010127.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_010150.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_010153.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010172.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010181.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,4,0,2,1.0
+Japan_010184.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010187.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_010197.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_010200.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+Japan_010221.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_010258.jpg,1,1,linear_crack,linear_crack,1,0,0,0,3,1,0.0
+Japan_010260.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010264.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_010269.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_010290.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_010292.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_010295.jpg,1,1,pothole,pothole,1,1,1,1,0,1,1.0
+Japan_010342.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0
+Japan_010345.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,4,0,0.0
+Japan_010349.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010352.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010355.jpg,1,1,linear_crack,linear_crack,1,1,0,2,1,0,1.0
+Japan_010368.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,6,0,0,1.0
+Japan_010373.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010380.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_010427.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_010439.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,2,1.0
+Japan_010470.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010480.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,2,1,0,0.5
+Japan_010483.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_010532.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_010543.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010546.jpg,2,2,pothole + alligator_crack,pothole + linear_crack,0,0,0,2,2,1,0.5
+Japan_010569.jpg,1,1,pothole,pothole,1,1,1,3,0,0,1.0
+Japan_010573.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010586.jpg,2,2,linear_crack + alligator_crack,pothole + alligator_crack,0,0,0,0,2,2,0.0
+Japan_010587.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010592.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_010594.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010627.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,3,1,0,0.5
+Japan_010639.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,0,1.0
+Japan_010642.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010656.jpg,1,1,linear_crack,linear_crack,1,1,0,2,4,2,1.0
+Japan_010670.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,3,0.0
+Japan_010672.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010693.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,1,1.0
+Japan_010708.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_010716.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,0,1,1,2,1.0
+Japan_010725.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010756.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_010761.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,1,0.0
+Japan_010766.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,3,0,0,1.0
+Japan_010775.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,1,5,0,2,1.0
+Japan_010787.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_010814.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+Japan_010815.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_010838.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_010859.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_010866.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_010875.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_010884.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,1,2,1,0.3333333333333333
+Japan_010906.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,0,1.0
+Japan_010911.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_010920.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010921.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_010928.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010931.jpg,1,1,linear_crack,linear_crack,1,0,0,0,2,1,0.0
+Japan_010937.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_010942.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_010951.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_010953.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010962.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_010964.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_010980.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_010998.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,0,1.0
+Japan_010999.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_011009.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_011010.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_011024.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,0,1.0
+Japan_011036.jpg,1,2,pothole,pothole + linear_crack,0,1,0,1,1,2,1.0
+Japan_011072.jpg,1,1,pothole,pothole,1,1,1,2,0,1,1.0
+Japan_011078.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_011081.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,3,2,0,1.0
+Japan_011096.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011102.jpg,3,2,pothole + linear_crack + alligator_crack,linear_crack + alligator_crack,0,0,0,1,3,3,0.3333333333333333
+Japan_011106.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,1,1.0
+Japan_011117.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,1,0,4,1,2,1.0
+Japan_011126.jpg,1,1,linear_crack,linear_crack,1,0,0,0,3,1,0.0
+Japan_011141.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,3,1.0
+Japan_011162.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,4,0,0.5
+Japan_011169.jpg,1,1,pothole,pothole,1,1,1,2,0,0,1.0
+Japan_011174.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011195.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_011208.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_011210.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_011213.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,0,1.0
+Japan_011215.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_011216.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,2,1.0
+Japan_011219.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_011230.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011266.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_011269.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_011296.jpg,1,1,linear_crack,linear_crack,1,1,0,2,3,1,1.0
+Japan_011306.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_011308.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_011330.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,4,1,0.5
+Japan_011332.jpg,1,1,linear_crack,linear_crack,1,1,1,3,0,1,1.0
+Japan_011338.jpg,2,0,pothole + linear_crack,none,0,0,0,0,4,0,0.0
+Japan_011341.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_011367.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011396.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_011404.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,2,0,0.5
+Japan_011406.jpg,2,0,linear_crack + alligator_crack,none,0,0,0,0,3,0,0.0
+Japan_011409.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,2,1.0
+Japan_011412.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,4,1,1.0
+Japan_011428.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,1,1,1.0
+Japan_011435.jpg,1,0,pothole,none,0,0,0,0,1,0,0.0
+Japan_011438.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,3,1,0.5
+Japan_011456.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_011465.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,3,2,1.0
+Japan_011466.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_011481.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011553.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,1,1.0
+Japan_011559.jpg,1,1,pothole,pothole,1,1,0,3,4,0,1.0
+Japan_011560.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_011570.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,2,0,1,1.0
+Japan_011609.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_011610.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,0,2,1,2,1.0
+Japan_011612.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,0,1.0
+Japan_011628.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,0,2,1,0,1.0
+Japan_011630.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_011640.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_011642.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,1,1,1.0
+Japan_011647.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011650.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,2,1,0.5
+Japan_011664.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,2,1,2,1.0
+Japan_011666.jpg,1,1,linear_crack,linear_crack,1,1,0,1,3,1,1.0
+Japan_011685.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,1,2,0.5
+Japan_011697.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,7,4,0.5
+Japan_011698.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_011709.jpg,1,1,pothole,pothole,1,1,0,2,1,0,1.0
+Japan_011721.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,0,2,1,0.0
+Japan_011731.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_011738.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011747.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,1,0.5
+Japan_011752.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_011759.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011767.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,2,0,1,1.0
+Japan_011787.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_011789.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011803.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011817.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_011832.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,4,1,4,1.0
+Japan_011844.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_011875.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,1,1,1,0.5
+Japan_011918.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,1,1,0.5
+Japan_011944.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_011970.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_011973.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,0,0,5,2,2,0.5
+Japan_011978.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_011980.jpg,1,1,linear_crack,linear_crack,1,1,0,3,1,0,1.0
+Japan_011999.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_012010.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_012014.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012020.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012035.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_012046.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_012049.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,3,2,1,1.0
+Japan_012050.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_012082.jpg,1,0,linear_crack,none,0,0,0,0,3,0,0.0
+Japan_012084.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012089.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012101.jpg,3,3,pothole + linear_crack + alligator_crack,pothole + linear_crack + alligator_crack,1,0,0,2,1,1,0.6666666666666666
+Japan_012108.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,0,2,2,1,1.0
+Japan_012121.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012130.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012131.jpg,1,1,pothole,linear_crack,0,0,0,0,2,1,0.0
+Japan_012148.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_012174.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012178.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,3,0,1.0
+Japan_012184.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,0,2,3,0,1.0
+Japan_012185.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,3,1,0.5
+Japan_012192.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_012195.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012209.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_012221.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_012246.jpg,1,3,alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,1,0,2,1.0
+Japan_012275.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012276.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_012295.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,1,1.0
+Japan_012297.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_012302.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_012303.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_012304.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,3,0,1,1.0
+Japan_012313.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012314.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012383.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,0,0,0,1,2,0.0
+Japan_012391.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_012393.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_012417.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_012427.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,1,1.0
+Japan_012429.jpg,2,2,pothole + alligator_crack,pothole + linear_crack,0,0,0,1,2,1,0.5
+Japan_012435.jpg,1,1,linear_crack,alligator_crack,0,0,0,0,2,1,0.0
+Japan_012436.jpg,1,2,alligator_crack,linear_crack + alligator_crack,0,1,0,1,1,2,1.0
+Japan_012466.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,1,1,0,1,1.0
+Japan_012467.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_012477.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,1,1,0.0
+Japan_012478.jpg,1,1,linear_crack,linear_crack,1,1,0,2,4,1,1.0
+Japan_012484.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,2,1,2,0.5
+Japan_012485.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_012487.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,2,0.0
+Japan_012504.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,0,2,2,0.0
+Japan_012517.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,0,1.0
+Japan_012527.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,1,1.0
+Japan_012539.jpg,1,1,pothole,pothole,1,1,1,1,0,0,1.0
+Japan_012545.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012575.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_012588.jpg,1,2,alligator_crack,pothole + alligator_crack,0,1,0,1,1,2,1.0
+Japan_012592.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,2,0,0.5
+Japan_012593.jpg,1,1,linear_crack,linear_crack,1,1,0,2,3,1,1.0
+Japan_012606.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,2,3,2,0.5
+Japan_012607.jpg,2,3,pothole + alligator_crack,pothole + linear_crack + alligator_crack,0,1,1,2,0,3,1.0
+Japan_012608.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012610.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012611.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,5,1,0.5
+Japan_012622.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012625.jpg,2,2,pothole + linear_crack,pothole + linear_crack,1,1,1,2,0,1,1.0
+Japan_012657.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_012659.jpg,1,1,linear_crack,linear_crack,1,1,0,2,2,1,1.0
+Japan_012673.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012675.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_012681.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012686.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_012715.jpg,1,1,linear_crack,linear_crack,1,1,1,2,0,0,1.0
+Japan_012735.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,2,0,0.5
+Japan_012741.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012758.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,3,1.0
+Japan_012767.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_012778.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_012791.jpg,1,1,pothole,linear_crack,0,0,0,0,1,1,0.0
+Japan_012797.jpg,1,0,linear_crack,none,0,0,0,0,1,0,0.0
+Japan_012800.jpg,1,1,linear_crack,linear_crack,1,0,0,0,1,2,0.0
+Japan_012801.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,1,3,0,0,1.0
+Japan_012807.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,0,0,1,3,1,0.5
+Japan_012814.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_012830.jpg,1,1,alligator_crack,linear_crack,0,0,0,0,1,2,0.0
+Japan_012836.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,1,1.0
+Japan_012848.jpg,2,1,pothole + alligator_crack,alligator_crack,0,0,0,1,2,1,0.5
+Japan_012867.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012871.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_012882.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_012888.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,7,1,1,1.0
+Japan_012901.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_012902.jpg,2,1,linear_crack + alligator_crack,alligator_crack,0,0,0,1,1,0,0.5
+Japan_012915.jpg,3,2,pothole + linear_crack + alligator_crack,pothole + linear_crack,0,0,0,2,3,3,0.6666666666666666
+Japan_012926.jpg,2,2,pothole + alligator_crack,pothole + alligator_crack,1,1,0,2,1,1,1.0
+Japan_012940.jpg,1,1,linear_crack,linear_crack,1,0,0,0,4,1,0.0
+Japan_012955.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,1,1.0
+Japan_012974.jpg,1,2,linear_crack,linear_crack + alligator_crack,0,1,0,1,3,1,1.0
+Japan_012985.jpg,2,2,linear_crack + alligator_crack,linear_crack + alligator_crack,1,1,1,2,0,1,1.0
+Japan_012992.jpg,1,1,alligator_crack,alligator_crack,1,0,0,0,2,1,0.0
+Japan_012995.jpg,1,1,alligator_crack,alligator_crack,1,1,1,2,0,0,1.0
+Japan_013003.jpg,2,1,pothole + alligator_crack,linear_crack,0,0,0,0,2,1,0.0
+Japan_013005.jpg,2,1,linear_crack + alligator_crack,linear_crack,0,0,0,1,5,6,0.5
+Japan_013022.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_013047.jpg,1,1,linear_crack,linear_crack,1,1,1,1,0,0,1.0
+Japan_013060.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_013082.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_013091.jpg,1,1,alligator_crack,alligator_crack,1,1,1,1,0,0,1.0
+Japan_013098.jpg,1,1,linear_crack,linear_crack,1,1,0,1,1,0,1.0
+Japan_013101.jpg,1,0,alligator_crack,none,0,0,0,0,1,0,0.0
+Japan_013115.jpg,1,1,alligator_crack,alligator_crack,1,1,0,1,1,1,1.0

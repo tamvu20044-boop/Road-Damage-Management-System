@@ -1,0 +1,9 @@
+combination,ground_truth_images,prediction_images
+none,0,164
+pothole,195,203
+linear_crack,915,839
+alligator_crack,571,537
+pothole + linear_crack,48,44
+pothole + alligator_crack,147,131
+linear_crack + alligator_crack,259,243
+pothole + linear_crack + alligator_crack,61,35

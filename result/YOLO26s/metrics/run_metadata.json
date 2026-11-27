@@ -1,0 +1,18 @@
+{
+  "model": "YOLO26s",
+  "model_path": "/kaggle/input/models/vtmhhh/yolo26s-lr-0-00067-hihi/pytorch/default/1/yolo26s_rdd_3class_best.pt",
+  "dataset_images": 2196,
+  "ground_truth_boxes": 4548,
+  "confidence_for_per_image_report": 0.25,
+  "nms_iou": 0.45,
+  "match_iou": 0.5,
+  "model_names": {
+    "0": "pothole",
+    "1": "linear_crack",
+    "2": "alligator_crack"
+  },
+  "ultralytics": "8.4.213",
+  "checkpoint_selection": "YOLO26s LR 0.000667; path explicitly verified",
+  "confusion_matrix_protocol": "model.val(conf=0.25,iou=0.45,nms=True,agnostic_nms=False)",
+  "note": "Test evaluation completed for YOLO26s. Per-image matching uses greedy same-class IoU >= 0.50 at confidence 0.25. Test results are not used for hyperparameter selection."
+}
