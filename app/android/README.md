@@ -62,5 +62,3 @@ Model đi kèm: `app/src/main/assets/yolo26s_rdd_640.tflite`; code có logic th�
 Retrofit gọi các endpoint như `auth/register`, `auth/login`, `reports` và `reports/{id}/status`. WorkManager hỗ trợ đồng bộ báo cáo chưa gửi; Room cung cấp lưu trữ cục bộ. Khi test, hãy kiểm tra ít nhất đăng ký/đăng nhập, chụp/chọn ảnh, hiển thị dự đoán, GPS, tạo báo cáo, mất mạng và đồng bộ lại.
 
 `AndroidManifest.xml` hiện đặt `android:usesCleartextTraffic="true"`, phù hợp thử nghiệm Backend HTTP trong mạng nội bộ nhưng không nên xem là thiết lập an toàn cho production. Trước khi công khai APK, cần rà soát lại HTTPS, token và thông tin cấu hình nhúng vào ứng dụng.
-
-**Không commit:** `local.properties`, thư mục `.gradle/`, `build/`, APK, keystore và các file chứa token bí mật. Git chỉ giữ tệp `.example` để minh họa.

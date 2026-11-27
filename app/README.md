@@ -9,14 +9,49 @@ Thư mục `app/` chứa **ứng dụng Android** và **Backend** để ghi nh�
 | [`android/`](android/README.md) | Kotlin, Jetpack Compose, CameraX, TensorFlow Lite, GPS, Room, WorkManager, Mapbox | Thu nhận ảnh, suy luận, lưu cục bộ, hiển thị bản đồ và đồng bộ |
 | [`backend/`](backend/README.md) | Node.js, Express, TypeScript, TypeORM, PostgreSQL/PostGIS, MinIO | Xác thực, quản lý báo cáo, ảnh và vị trí |
 
-```text
-Android (camera / ảnh)
-   -> YOLO26s TFLite (640 × 640, ba lớp)
-   -> GPS + Room (báo cáo cục bộ)
-   -> WorkManager / REST API
-   -> Backend + PostgreSQL/PostGIS + MinIO
-   -> Android hiển thị báo cáo / bản đồ
+## Kiến trúc hệ thống
+
+```mermaid
+flowchart LR
+    Phone["📱 Android App<br/>Kotlin / Jetpack Compose"]
+    Camera["📷 Ảnh + GPS"]
+    Model["🧠 YOLO26s TFLite<br/>Phát hiện 3 lớp"]
+    Local["💾 Room / SQLite<br/>Báo cáo cục bộ"]
+    Sync["🔄 WorkManager<br/>REST API"]
+    Server["🖥️ Backend<br/>Express / TypeScript"]
+    DB[("🗃️ PostgreSQL<br/>PostGIS")]
+    Store[("🖼️ MinIO")]
+    Map["🗺️ Mapbox SDK<br/>Bản đồ, vị trí"]
+
+    Phone -->|"Chụp ảnh, lấy vị trí"| Camera
+    Camera --> Model
+    Model -->|"Hộp phát hiện, lớp, độ tin cậy"| Local
+    Local -->|"Khi có kết nối"| Sync
+    Sync --> Server
+    Server -->|"Báo cáo, vị trí, trạng thái"| DB
+    Server -->|"Lưu ảnh"| Store
+    Phone -->|"Hiển thị bản đồ"| Map
+    Server -.->|"Dữ liệu báo cáo"| Map
+
+    classDef mobile fill:#eff6ff,stroke:#2563eb,color:#1e40af;
+    classDef detect fill:#f5f3ff,stroke:#7c3aed,color:#5b21b6;
+    classDef data fill:#ecfdf5,stroke:#059669,color:#065f46;
+    classDef service fill:#fff7ed,stroke:#ea580c,color:#9a3412;
+    class Phone,Camera,Map mobile;
+    class Model detect;
+    class Local,DB,Store data;
+    class Sync,Server service;
 ```
+
+### Công nghệ chính
+
+- **Mobile Client:** Kotlin, Jetpack Compose, Material 3 và CameraX.
+- **Inference Engine:** YOLO26s xuất sang TensorFlow Lite, thực hiện suy luận trên thiết bị Android.
+- **Lưu ngoại tuyến:** Room/SQLite; đồng bộ bằng WorkManager khi có điều kiện phù hợp.
+- **Backend API:** Node.js, Express, TypeScript và TypeORM.
+- **Cơ sở dữ liệu không gian:** PostgreSQL kết hợp PostGIS để quản lý vị trí báo cáo.
+- **Lưu ảnh:** MinIO (tương thích API S3).
+- **Bản đồ:** Mapbox SDK hiển thị bản đồ và các vị trí liên quan.
 
 **Ba lớp nghiên cứu:** `pothole` (D40), `linear_crack` (D00 + D10), `alligator_crack` (D20). Lớp `linear_crack` là nứt tuyến tính gộp cả D00 và D10, không chỉ riêng nứt ngang. Một số *chú thích và nhãn tiếng Việt trong code Android* vẫn mô tả nhãn này là D10/nứt ngang; cần đồng bộ lại trước khi phát hành chính thức.
 
@@ -32,7 +67,7 @@ Android (camera / ảnh)
 
 - Mô hình được giữ trong mã nguồn Android: `android/app/src/main/assets/yolo26s_rdd_640.tflite`.
 - Checkpoint nghiên cứu: [`../models/YOLO26s.pt`](../models/YOLO26s.pt) và [`../models/YOLO26n.pt`](../models/YOLO26n.pt). Đây là tệp `.pt` dùng cho nghiên cứu/đánh giá, không phải đường dẫn mô hình Android trực tiếp sử dụng.
-- Không commit APK debug, dữ liệu checkpoint trùng hoặc các tệp TFLite bản sao khác. APK để chia sẻ kiểm thử nên đưa vào GitHub Releases sau khi rà soát an toàn.
+
 
 ## Cấu hình và an toàn
 
@@ -40,7 +75,3 @@ Android (camera / ảnh)
 - File `.env.example` và `local.properties.example` chỉ chứa mẫu cấu hình; không thay placeholder bằng khóa thật ngay trong file mẫu.
 - Backend Docker Compose xuất cổng 3000, 5432, 9000 và 9001 trên máy chủ phát triển. Không triển khai trực tiếp ra Internet nếu chưa giới hạn mạng, cấu hình HTTPS, phân quyền và bảo vệ các dịch vụ.
 - AndroidManifest hiện cho phép cleartext HTTP để thử nghiệm nội bộ; trước khi phát hành, nên ưu tiên HTTPS và tắt cấu hình này nếu không còn cần.
-
-## Tình trạng kiểm thử
-
-Các README này mô tả cấu trúc và hướng dẫn dựa trên **mã nguồn được cung cấp**. Chưa có bằng chứng từ quy trình build/chạy mới rằng APK được biên dịch lại thành công sau khi làm sạch cấu hình. Cần kiểm tra trên thiết bị và Backend thật trước khi công bố đây là bản triển khai sẵn sàng vận hành.

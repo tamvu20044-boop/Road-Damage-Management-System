@@ -6,26 +6,39 @@ Repository bao gồm hai phần liên kết với nhau: **(1) nghiên cứu, hu�
 
 ## 1. Chức năng và kiến trúc
 
-```text
-Camera / ảnh trên Android
-       |
-       v
-YOLO26s TFLite (suy luận trên thiết bị)
-       |
-       +--> Khung phát hiện, loại hư hỏng, độ tin cậy
-       |
-       v
-GPS + lưu báo cáo cục bộ (Room/SQLite)
-       |
-       v
-Đồng bộ qua REST API (Express/TypeScript)
-       |
-       +--> PostgreSQL/PostGIS: người dùng, vị trí, báo cáo
-       +--> MinIO: ảnh báo cáo
-       |
-       v
-Mapbox: hiển thị vị trí và theo dõi trạng thái
+```mermaid
+flowchart LR
+    A["Thiết bị Android"]
+    B["Camera / ảnh<br/>và tọa độ GPS"]
+    C["YOLO26s TFLite<br/>Suy luận trên thiết bị"]
+    D["Room / SQLite<br/>Lưu báo cáo ngoại tuyến"]
+    E["Đồng bộ REST API<br/>WorkManager"]
+    F["Backend<br/>Express / TypeScript"]
+    G[("PostgreSQL<br/>PostGIS")]
+    H[("MinIO<br/>Ảnh báo cáo")]
+    I["Mapbox<br/>Hiển thị vị trí và trạng thái"]
+
+    A --> B
+    B --> C
+    C -->|"Loại hư hỏng, khung phát hiện, độ tin cậy"| D
+    D --> E
+    E --> F
+    F -->|"Báo cáo và tọa độ"| G
+    F -->|"Ảnh báo cáo"| H
+    A --> I
+    F -.->|"Dữ liệu báo cáo"| I
+
+    classDef device fill:#eff6ff,stroke:#2563eb,color:#1e3a8a,stroke-width:1px;
+    classDef ai fill:#f5f3ff,stroke:#7c3aed,color:#4c1d95,stroke-width:1px;
+    classDef storage fill:#ecfdf5,stroke:#059669,color:#065f46,stroke-width:1px;
+    classDef backend fill:#fff7ed,stroke:#ea580c,color:#9a3412,stroke-width:1px;
+    class A,B,I device;
+    class C ai;
+    class D,G,H storage;
+    class E,F backend;
 ```
+
+**Luồng chính:** Android nhận ảnh và GPS → YOLO26s TFLite nhận diện trực tiếp trên thiết bị → lưu báo cáo cục bộ → đồng bộ với Backend khi có kết nối. Backend lưu báo cáo/vị trí trong PostgreSQL/PostGIS, lưu ảnh trong MinIO; Mapbox hỗ trợ hiển thị bản đồ.
 
 Ứng dụng sử dụng Kotlin/Jetpack Compose, CameraX, GPS, Mapbox, TensorFlow Lite và WorkManager; Backend cung cấp API xác thực, báo cáo và cập nhật trạng thái xử lý. [Chi tiết ứng dụng](app/README.md).
 
@@ -96,8 +109,3 @@ Nguồn: `result/YOLO26n/metrics/metrics.json` và `result/YOLO26s/metrics/metri
 - [Android](app/android/README.md) — cấu hình Android Studio, token Mapbox và kết nối API.
 - [Backend](app/backend/README.md) — Docker Compose, biến môi trường và tài khoản quản lý.
 
-Dữ liệu RDD2022 đầy đủ không được đóng gói vào repository. Notebook có thể chứa đường dẫn Kaggle cần điều chỉnh khi chạy trên môi trường khác. Đối với ứng dụng, phải tạo cấu hình cục bộ từ file `.example` trước khi chạy; **không commit token, mật khẩu hoặc file `.env` thật**.
-
-## 7. Phạm vi và lưu ý
-
-Repository phục vụ minh họa nghiên cứu và triển khai trong phạm vi đồ án. Các kết quả Test phản ánh tập dữ liệu đã lựa chọn, chưa bảo đảm chất lượng tương tự trên mọi tuyến đường và điều kiện thực tế. Phần Android/Backend đã được tổ chức thành mã nguồn; khả năng build, kết nối dịch vụ và vận hành cần được xác nhận trong môi trường triển khai cụ thể. APK cài đặt (nếu công bố) nên được đặt trong **GitHub Releases**, không commit trực tiếp vào repository.

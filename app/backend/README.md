@@ -76,6 +76,3 @@ File [`.env.example`](.env.example) chứa các nhóm biến: `POSTGRES_DB`, `PO
 
 **Không commit `.env` thật**. File Docker Compose trong repository dùng biến môi trường, không chứa mật khẩu máy chủ triển khai. Các cổng 3000, 5432, 9000 và 9001 đang được xuất ra host, vì thế nên chỉ chạy trong mạng phát triển tin cậy hoặc cấu hình lại firewall/binding. Đối với môi trường triển khai công khai cần HTTPS, secret riêng, cơ chế backup, kiểm soát quyền truy cập và kiểm toán bảo mật trước khi sử dụng.
 
-## Phạm vi kiểm chứng
-
-Tài liệu được viết dựa trên mã nguồn và tệp cấu hình trong gói ứng dụng. Chưa có kết quả chạy Docker/kiểm thử API mới sau khi làm sạch cấu hình. Các lệnh ở trên là hướng dẫn thiết lập cần được xác nhận trong môi trường máy của bạn.

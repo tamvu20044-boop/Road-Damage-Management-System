@@ -52,5 +52,3 @@ Bảng tổng hợp [`../result/hyperparameter_tuning/hyperparameter_tuning.csv`
 3. Chạy notebook tương ứng từ pretrained, kiểm tra thiết lập GPU/batch thực tế.
 4. So sánh chỉ số trên Validation, lưu checkpoint tốt nhất và kết quả CSV/PNG.
 5. Chạy [`../evaluation/Test_evaluation.ipynb`](../evaluation/Test_evaluation.ipynb) với hai checkpoint đã chọn để đánh giá Test.
-
-Lưu ý: đường dẫn `best.pt` và output trong notebook là đường dẫn ở Kaggle; không mặc định những đường dẫn đó có trên máy cá nhân.
