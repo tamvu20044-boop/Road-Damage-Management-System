@@ -1,0 +1,4 @@
+# Copy to local.properties and configure locally. Never commit local.properties.
+MAPBOX_ACCESS_TOKEN=YOUR_PUBLIC_MAPBOX_ACCESS_TOKEN
+MAPBOX_DOWNLOADS_TOKEN=YOUR_PRIVATE_MAPBOX_DOWNLOADS_READ_TOKEN
+API_BASE_URL=http://10.0.2.2:3000/

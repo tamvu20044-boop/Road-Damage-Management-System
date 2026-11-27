@@ -1,0 +1,10 @@
+{
+  "name": "road-damage-backend",
+  "version": "1.0.0",
+  "private": true,
+    "scripts": { "dev": "tsx watch src/server.ts", "build": "tsc", "start": "node dist/server.js", "seed:manager": "node dist/scripts/seed-manager.js" },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2", "@types/cors": "^2.8.17", "@types/express": "^5.0.1", "@types/jsonwebtoken": "^9.0.9", "@types/multer": "^2.0.0", "bcrypt": "^5.1.1", "cors": "^2.8.5", "dotenv": "^16.4.7", "express": "^4.21.2", "jsonwebtoken": "^9.0.2", "minio": "^8.0.1", "multer": "^2.0.2", "pg": "^8.13.1", "reflect-metadata": "^0.2.2", "typeorm": "^0.3.20", "zod": "^3.24.1"
+  },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.7.2" }
+}

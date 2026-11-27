@@ -1,32 +1,70 @@
-# Python / notebooks
+# ============================================================
+# Road Damage Management System - repository-wide ignore rules
+# ============================================================
+
+# Python / Jupyter
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .venv/
 venv/
+.pytest_cache/
 
-# Credentials and local configuration
+# Secrets and machine-specific configuration
 .env
+**/.env
 .env.*
+**/.env.*
 !.env.example
+!**/.env.example
+local.properties
+**/local.properties
 *.key
 *.pem
+*.p12
+*.jks
+*.keystore
 
-# Model weights and generated archives (use controlled releases if needed)
+# Android / Gradle / IDE
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+**/build/
+.cxx/
+.externalNativeBuild/
+*.iml
+.idea/
+.vscode/
+*.apk
+*.aab
+*.apks
+*.hprof
+
+# Node / TypeScript / Backend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Kaggle/Ultralytics generated run outputs
+runs/
+wandb/
+
+# Archives and weights: include only reviewed, selected models
+*.zip
 *.pt
 *.pth
 *.onnx
 *.tflite
-*.zip
 !models/YOLO26n.pt
 !models/YOLO26s.pt
-
-# OS/editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Kaggle/Ultralytics generated data
-runs/
-wandb/
+!app/android/app/src/main/assets/yolo26s_rdd_640.tflite

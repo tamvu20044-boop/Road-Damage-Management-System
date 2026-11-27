@@ -1,0 +1,10 @@
+import { Router } from "express";
+import multer from "multer";
+import { z } from "zod";
+import * as controller from "../controllers/report.controller";
+import { requireAuth, requireRole } from "../middlewares/auth";
+import { validate } from "../middlewares/validate";
+const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 10 * 1024 * 1024 }, fileFilter: (_r, f, cb) => cb(null, /^image\/(jpeg|jpg|png)$/.test(f.mimetype)) });
+const createSchema = z.object({ lat: z.coerce.number().gte(-90).lte(90), lng: z.coerce.number().gte(-180).lte(180), heading: z.coerce.number().gte(0).lte(360).optional(), damageType: z.string().min(1), confidence: z.coerce.number().gte(0).lte(1), timestamp: z.coerce.date().optional() });
+const querySchema = z.object({ bbox: z.string().regex(/^-?\d+(\.\d+)?,-?\d+(\.\d+)?,-?\d+(\.\d+)?,-?\d+(\.\d+)?$/).optional(), status: z.enum(["moi_phat_hien", "dang_xu_ly", "da_sua"]).optional(), damageType: z.string().optional(), page: z.coerce.number().int().positive().default(1), limit: z.coerce.number().int().min(1).max(100).default(30) });
+export const reportRouter = Router(); reportRouter.use(requireAuth); reportRouter.post("/", upload.single("image"), validate(createSchema), controller.createReport); reportRouter.get("/", validate(querySchema, "query"), controller.getReports); reportRouter.get("/:id", controller.getReport); reportRouter.patch("/:id/status", requireRole("manager"), validate(z.object({ status: z.enum(["moi_phat_hien", "dang_xu_ly", "da_sua"]).optional(), damageType: z.string().optional() })), controller.updateStatus); reportRouter.delete("/:id", controller.deleteReport);
