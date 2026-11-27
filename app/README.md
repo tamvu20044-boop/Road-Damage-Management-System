@@ -2,6 +2,25 @@
 
 Thư mục `app/` chứa **ứng dụng Android** và **Backend** để ghi nhận, định vị và quản lý các báo cáo hư hỏng mặt đường. Mô hình nhận diện chạy **trên điện thoại**; Backend nhận báo cáo và lưu trữ thông tin, ảnh và tọa độ.
 
+## Cấu trúc thư mục `app/`
+
+```text
+app/
+├── README.md                     # Tổng quan ứng dụng
+├── android/                      # Ứng dụng Android
+│   ├── README.md                 # Cấu hình và cách chạy Android
+│   ├── app/                      # Mã nguồn Kotlin và model TFLite
+│   ├── gradle/                   # Gradle wrapper
+│   ├── build.gradle.kts          # Cấu hình build cấp dự án
+│   └── settings.gradle.kts       # Cấu hình module và repository
+└── backend/                      # Dịch vụ API và lưu trữ
+    ├── README.md                 # Cấu hình và cách chạy Backend
+    ├── src/                      # Mã nguồn TypeScript
+    ├── package.json              # Dependency và npm scripts
+    ├── Dockerfile                # Docker image Backend
+    └── docker-compose.yml        # Các dịch vụ phát triển
+```
+
 ## Thành phần
 
 | Thành phần | Công nghệ trong mã nguồn | Vai trò |
@@ -13,34 +32,25 @@ Thư mục `app/` chứa **ứng dụng Android** và **Backend** để ghi nh�
 
 ```mermaid
 flowchart LR
-    Phone["📱 Android App<br/>Kotlin / Jetpack Compose"]
-    Camera["📷 Ảnh + GPS"]
-    Model["🧠 YOLO26s TFLite<br/>Phát hiện 3 lớp"]
-    Local["💾 Room / SQLite<br/>Báo cáo cục bộ"]
-    Sync["🔄 WorkManager<br/>REST API"]
-    Server["🖥️ Backend<br/>Express / TypeScript"]
-    DB[("🗃️ PostgreSQL<br/>PostGIS")]
-    Store[("🖼️ MinIO")]
-    Map["🗺️ Mapbox SDK<br/>Bản đồ, vị trí"]
+    A["Thiết bị Android"]
+    B["YOLO TFLite On-Device"]
+    C["Room DB SQLite"]
+    D["Backend<br/>Express / TypeScript"]
+    E[("PostgreSQL +<br/>PostGIS")]
+    F[("MinIO S3 Storage")]
+    G["Mapbox SDK v11"]
 
-    Phone -->|"Chụp ảnh, lấy vị trí"| Camera
-    Camera --> Model
-    Model -->|"Hộp phát hiện, lớp, độ tin cậy"| Local
-    Local -->|"Khi có kết nối"| Sync
-    Sync --> Server
-    Server -->|"Báo cáo, vị trí, trạng thái"| DB
-    Server -->|"Lưu ảnh"| Store
-    Phone -->|"Hiển thị bản đồ"| Map
-    Server -.->|"Dữ liệu báo cáo"| Map
+    A -->|"Chụp ảnh & GPS"| B
+    A -->|"Bản đồ số 2D / Vệ tinh"| G
+    B -->|"Offline Database"| C
+    C -->|"Đồng bộ REST API"| D
+    D -->|"Lưu trữ dữ liệu tọa độ"| E
+    D -->|"Lưu trữ ảnh chụp"| F
 
-    classDef mobile fill:#eff6ff,stroke:#2563eb,color:#1e40af;
-    classDef detect fill:#f5f3ff,stroke:#7c3aed,color:#5b21b6;
-    classDef data fill:#ecfdf5,stroke:#059669,color:#065f46;
-    classDef service fill:#fff7ed,stroke:#ea580c,color:#9a3412;
-    class Phone,Camera,Map mobile;
-    class Model detect;
-    class Local,DB,Store data;
-    class Sync,Server service;
+    classDef component fill:#f5f3ff,stroke:#a78bfa,color:#111827,stroke-width:1px;
+    classDef storage fill:#f5f3ff,stroke:#a78bfa,color:#111827,stroke-width:1px;
+    class A,B,C,D,G component;
+    class E,F storage;
 ```
 
 ### Công nghệ chính
@@ -66,7 +76,6 @@ flowchart LR
 ## Các tệp mô hình
 
 - Mô hình được giữ trong mã nguồn Android: `android/app/src/main/assets/yolo26s_rdd_640.tflite`.
-- Checkpoint nghiên cứu: [`../models/YOLO26s.pt`](../models/YOLO26s.pt) và [`../models/YOLO26n.pt`](../models/YOLO26n.pt). Đây là tệp `.pt` dùng cho nghiên cứu/đánh giá, không phải đường dẫn mô hình Android trực tiếp sử dụng.
 
 
 ## Cấu hình và an toàn
@@ -75,3 +84,4 @@ flowchart LR
 - File `.env.example` và `local.properties.example` chỉ chứa mẫu cấu hình; không thay placeholder bằng khóa thật ngay trong file mẫu.
 - Backend Docker Compose xuất cổng 3000, 5432, 9000 và 9001 trên máy chủ phát triển. Không triển khai trực tiếp ra Internet nếu chưa giới hạn mạng, cấu hình HTTPS, phân quyền và bảo vệ các dịch vụ.
 - AndroidManifest hiện cho phép cleartext HTTP để thử nghiệm nội bộ; trước khi phát hành, nên ưu tiên HTTPS và tắt cấu hình này nếu không còn cần.
+

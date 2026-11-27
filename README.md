@@ -2,43 +2,34 @@
 
 **Hệ thống phát hiện, định vị và quản lý hư hỏng mặt đường ứng dụng học sâu** — đồ án PBL5: Hệ thống máy tính, Trường Đại học Bách khoa – Đại học Đà Nẵng.
 
-Repository bao gồm hai phần liên kết với nhau: **(1) nghiên cứu, huấn luyện và đánh giá YOLO26n/YOLO26s** trên tập con RDD2022; **(2) ứng dụng Android sử dụng mô hình YOLO26s TensorFlow Lite** để nhận diện hư hỏng, định vị và đồng bộ báo cáo với Backend.
+Repository bao gồm hai phần: **(1) nghiên cứu, huấn luyện và đánh giá YOLO26n/YOLO26s** trên tập con RDD2022; **(2) ứng dụng Android sử dụng mô hình YOLO26s TensorFlow Lite** để nhận diện hư hỏng, định vị và đồng bộ báo cáo với Backend.
 
 ## 1. Chức năng và kiến trúc
 
 ```mermaid
 flowchart LR
     A["Thiết bị Android"]
-    B["Camera / ảnh<br/>và tọa độ GPS"]
-    C["YOLO26s TFLite<br/>Suy luận trên thiết bị"]
-    D["Room / SQLite<br/>Lưu báo cáo ngoại tuyến"]
-    E["Đồng bộ REST API<br/>WorkManager"]
-    F["Backend<br/>Express / TypeScript"]
-    G[("PostgreSQL<br/>PostGIS")]
-    H[("MinIO<br/>Ảnh báo cáo")]
-    I["Mapbox<br/>Hiển thị vị trí và trạng thái"]
+    B["YOLO TFLite On-Device"]
+    C["Room DB SQLite"]
+    D["Backend<br/>Express / TypeScript"]
+    E[("PostgreSQL +<br/>PostGIS")]
+    F[("MinIO S3 Storage")]
+    G["Mapbox SDK v11"]
 
-    A --> B
-    B --> C
-    C -->|"Loại hư hỏng, khung phát hiện, độ tin cậy"| D
-    D --> E
-    E --> F
-    F -->|"Báo cáo và tọa độ"| G
-    F -->|"Ảnh báo cáo"| H
-    A --> I
-    F -.->|"Dữ liệu báo cáo"| I
+    A -->|"Chụp ảnh & GPS"| B
+    A -->|"Bản đồ số 2D / Vệ tinh"| G
+    B -->|"Offline Database"| C
+    C -->|"Đồng bộ REST API"| D
+    D -->|"Lưu trữ dữ liệu tọa độ"| E
+    D -->|"Lưu trữ ảnh chụp"| F
 
-    classDef device fill:#eff6ff,stroke:#2563eb,color:#1e3a8a,stroke-width:1px;
-    classDef ai fill:#f5f3ff,stroke:#7c3aed,color:#4c1d95,stroke-width:1px;
-    classDef storage fill:#ecfdf5,stroke:#059669,color:#065f46,stroke-width:1px;
-    classDef backend fill:#fff7ed,stroke:#ea580c,color:#9a3412,stroke-width:1px;
-    class A,B,I device;
-    class C ai;
-    class D,G,H storage;
-    class E,F backend;
+    classDef component fill:#f5f3ff,stroke:#a78bfa,color:#111827,stroke-width:1px;
+    classDef storage fill:#f5f3ff,stroke:#a78bfa,color:#111827,stroke-width:1px;
+    class A,B,C,D,G component;
+    class E,F storage;
 ```
 
-**Luồng chính:** Android nhận ảnh và GPS → YOLO26s TFLite nhận diện trực tiếp trên thiết bị → lưu báo cáo cục bộ → đồng bộ với Backend khi có kết nối. Backend lưu báo cáo/vị trí trong PostgreSQL/PostGIS, lưu ảnh trong MinIO; Mapbox hỗ trợ hiển thị bản đồ.
+**Luồng chính:** Android chụp ảnh và ghi nhận GPS → YOLO26s TFLite suy luận trên thiết bị → Room/SQLite lưu báo cáo ngoại tuyến → đồng bộ REST API với Backend khi có kết nối. Backend lưu báo cáo/vị trí trong PostgreSQL/PostGIS, lưu ảnh trong MinIO; Mapbox hỗ trợ hiển thị bản đồ.
 
 Ứng dụng sử dụng Kotlin/Jetpack Compose, CameraX, GPS, Mapbox, TensorFlow Lite và WorkManager; Backend cung cấp API xác thực, báo cáo và cập nhật trạng thái xử lý. [Chi tiết ứng dụng](app/README.md).
 
@@ -63,19 +54,13 @@ flowchart LR
 
 ```text
 Road-Damage-Management-System/
-├── README.md
-├── .gitignore
-├── training/                 # LR Finder và các notebook huấn luyện
-├── evaluation/               # Notebook và cấu hình đánh giá Test
-├── models/                   # YOLO26n.pt, YOLO26s.pt
-├── result/                   # Validation, Test, CSV/JSON/PNG và ví dụ
-└── app/
-    ├── README.md             # Tổng quan và cách vận hành hệ thống
-    ├── android/              # Kotlin/Jetpack Compose + TFLite
-    │   └── README.md
-    └── backend/              # Express/TypeScript + PostGIS + MinIO
-        └── README.md
-```
+├── README.md                    # Giới thiệu và tổng quan hệ thống
+├── .gitignore                   # Quy tắc loại trừ file khỏi Git
+├── training/                    # LR Finder và notebook huấn luyện
+├── evaluation/                  # Đánh giá mô hình trên tập Test
+├── models/                      # Checkpoint YOLO26n.pt và YOLO26s.pt
+├── result/                      # Chỉ số, biểu đồ và ảnh minh họa
+└── app/                         # Ứng dụng phát hiện và quản lý
 
 ## 4. Nghiên cứu và lựa chọn mô hình
 
@@ -86,7 +71,7 @@ Road-Damage-Management-System/
 5. Cấu hình cuối được lựa chọn: **Linear Scheduler, `lr0=0.000667`**, cho cả YOLO26n và YOLO26s.
 6. Dùng checkpoint đã chọn để đánh giá trên tập Test độc lập.
 
-Tệp `result/hyperparameter_tuning/hyperparameter_tuning.csv` lưu cả các LR khảo sát (`0.0003`, `0.000667`, `0.001`, `0.0013`, `0.002`), **không phải** LR ban đầu của bốn notebook Linear/Cosine đang lưu. Chuỗi `0-00067` trong đường dẫn checkpoint Kaggle là **tên thư mục**, không thay thế giá trị `lr0` trong code.
+
 
 ## 5. Kết quả trên tập Test
 
@@ -109,3 +94,8 @@ Nguồn: `result/YOLO26n/metrics/metrics.json` và `result/YOLO26s/metrics/metri
 - [Android](app/android/README.md) — cấu hình Android Studio, token Mapbox và kết nối API.
 - [Backend](app/backend/README.md) — Docker Compose, biến môi trường và tài khoản quản lý.
 
+Dữ liệu RDD2022 đầy đủ không được đóng gói vào repository. Notebook có thể chứa đường dẫn Kaggle cần điều chỉnh khi chạy trên môi trường khác. Đối với ứng dụng, phải tạo cấu hình cục bộ từ file `.example` trước khi chạy.
+
+## 7. Phạm vi và lưu ý
+
+Repository phục vụ minh họa nghiên cứu và triển khai trong phạm vi đồ án. Các kết quả Test phản ánh tập dữ liệu đã lựa chọn, chưa bảo đảm chất lượng tương tự trên mọi tuyến đường và điều kiện thực tế. Phần Android/Backend đã được tổ chức thành mã nguồn; khả năng build, kết nối dịch vụ và vận hành cần được xác nhận trong môi trường triển khai cụ thể. APK cài đặt (nếu công bố) nên được đặt trong **GitHub Releases**, không commit trực tiếp vào repository.
