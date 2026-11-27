@@ -98,4 +98,4 @@ Dữ liệu RDD2022 đầy đủ không được đóng gói vào repository. No
 
 ## 7. Phạm vi và lưu ý
 
-Repository phục vụ minh họa nghiên cứu và triển khai trong phạm vi đồ án. Các kết quả Test phản ánh tập dữ liệu đã lựa chọn, chưa bảo đảm chất lượng tương tự trên mọi tuyến đường và điều kiện thực tế. Phần Android/Backend đã được tổ chức thành mã nguồn; khả năng build, kết nối dịch vụ và vận hành cần được xác nhận trong môi trường triển khai cụ thể. APK cài đặt (nếu công bố) nên được đặt trong **GitHub Releases**, không commit trực tiếp vào repository.
+Repository phục vụ minh họa nghiên cứu và triển khai trong phạm vi đồ án. Các kết quả Test phản ánh tập dữ liệu đã lựa chọn, chưa bảo đảm chất lượng tương tự trên mọi tuyến đường và điều kiện thực tế. Phần Android/Backend đã được tổ chức thành mã nguồn; khả năng build, kết nối dịch vụ và vận hành cần được xác nhận trong môi trường triển khai cụ thể. 
